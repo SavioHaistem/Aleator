@@ -1,0 +1,153 @@
+body {
+    width: 100%;
+    height: 100%;
+    margin: 0%;
+    display: grid;
+    background-color: rgb(255, 255, 255);
+    font: 50pt;
+    
+}
+header {
+    padding-top: 50px;
+    border-bottom-right-radius: 500px;
+    font: normal 25pt Fantasy ;
+    height: 250px;
+    width: 100%;
+    text-align: center;
+    line-height: 15px;
+    background-color: black;
+    color: rgb(243, 243, 243);
+}
+
+section#fogo {
+    background-color: rgb(80, 80, 80);
+    width: 15rem;
+    height: 8rem;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-bottom-left-radius: 60px;
+    border-bottom-right-radius: 60px;
+}
+#sort {
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    font: bold 25pt Arial;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    cursor: pointer;
+}
+#ativo {
+    border: 1px solid black;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font: bold 50pt Fantasy;
+    width: 120px;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    border-top-right-radius: 80px;
+    border-bottom-right-radius: 80px;
+    cursor: pointer;
+}
+#luckyN {
+    border: 1px solid black;
+    border: none;
+    font: normal 25pt Arial;
+    width: 100px;
+    height: 100px;
+    outline: none;
+    text-align: center;
+    text-size-adjust: 50px;
+    background: rgb(250, 250, 250);
+    color: rgb(0, 0, 0);
+    box-sizing: border-box;
+    border-radius: 80px;
+    border-bottom-right-radius: 0px;
+    border-top-right-radius: 0px;
+}
+h5 {
+    font: bold 20pt Arial;
+    margin-bottom: 0;
+    padding: 0;
+    margin-top: 20%;
+    text-align: center;
+}
+#agua2 {
+    font: normal 15px arial;
+    text-align: center;
+    width: 100px;
+    height: 100px;
+    background:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 100%;
+    border-color: black;
+    line-height: 100px;
+    border: 3px solid black;
+}
+
+#agua {
+    font: normal 90px arial;
+    text-align: center;
+    width: 200px;
+    height: 200px;
+    background:rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    margin: auto;
+    margin-top: 100px;
+    border-radius: 20%;
+    border-color: black;
+    line-height: 200px;
+    border: 2px solid black;
+    background-image: linear-gradient(to right, rgb(243, 243, 243), rgb(255, 255, 255));
+}
+.anim {
+    transition: all 150ms;
+}
+
+#here {
+    
+    padding: 20px;
+    background-color: rgb(170, 0, 0);
+    font: white bold 15px Arial;
+    height: 500px;
+    width: 20%;
+    display: table;
+    position: absolute;
+    margin-left: 2rem;
+    border: 8px solid rgb(255, 191, 88);
+    border-top: 0px;
+    border-bottom-left-radius: 600px;
+    border-bottom-right-radius: 600px;
+    text-align: center;
+}
+#here h1 {
+    font: bold 35pt arial;
+    color: white;
+    text-align: center;
+    
+}
+div.balls {
+    font: bold 20pt Arial;
+    color: white;
+    background-color: rgb(223, 107, 53);
+    position: relative;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    border: 2px solid rgb(255, 196, 0);
+    border-radius: 20%;
+    margin: auto;
+    margin-bottom: 50px;
+    margin-top: 50px;
+}
