@@ -6,7 +6,7 @@ butt.addEventListener('mouseenter', entra)
 butt.addEventListener('mouseout',sair)
 
 function entra() {
-
+ 
     var butt = window.document.getElementById('sort')
     butt.setAttribute('id','ativo')
     butt.classList.add('anim')
@@ -21,23 +21,18 @@ function sair() {
 
 function sorter() {
 
-    var butt = window.document.getElementById('ativo')
-    butt.classList.remove('anim')
-
-    var resposta = window.document.getElementById('output')
-    var resultados = window.document.getElementById('here')
+    var resposta = window.document.getElementById('resultado')
+    var resultados = window.document.getElementById('Banner')
 
     var num = window.document.getElementById('luckyN')
-    var anim = window.document.getElementById('agua')
     
-    anim.classList.add('anim2')
     num = Number(num.value)
 
     res = Math.floor(Math.random() * (num - 1 + 1)) + 1
     
 
     resposta.innerHTML = `${res}`
-    resultados.innerHTML += `<div id=ball${res} class="balls" onclick="removeball()">${res}</div>`
+    resultados.innerHTML += `<div id=dado${res} class="dados" onclick="removeball()">${res}</div>`
     
 } 
 function removeball(){

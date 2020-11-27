@@ -81,22 +81,7 @@ h5 {
     margin-top: 20%;
     text-align: center;
 }
-#agua2 {
-    font: normal 15px arial;
-    text-align: center;
-    width: 100px;
-    height: 100px;
-    background:rgb(255, 255, 255);
-    color: rgb(0, 0, 0);
-    margin: auto;
-    margin-top: 100px;
-    border-radius: 100%;
-    border-color: black;
-    line-height: 100px;
-    border: 3px solid black;
-}
-
-#agua {
+#Dado-grande {
     font: normal 90px arial;
     text-align: center;
     width: 200px;
@@ -115,14 +100,14 @@ h5 {
     transition: all 150ms;
 }
 
-#here {
+#Banner {
     
     padding: 20px;
     background-color: rgb(170, 0, 0);
     font: white bold 15px Arial;
     height: 500px;
     width: 20%;
-    display: table;
+    display: table; 
     position: absolute;
     margin-left: 2rem;
     border: 8px solid rgb(255, 191, 88);
@@ -131,13 +116,13 @@ h5 {
     border-bottom-right-radius: 600px;
     text-align: center;
 }
-#here h1 {
+#Banner h1 {
     font: bold 35pt arial;
     color: white;
     text-align: center;
     
 }
-div.balls {
+div.dados {
     font: bold 20pt Arial;
     color: white;
     background-color: rgb(223, 107, 53);
