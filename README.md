@@ -9,3 +9,12 @@ O site utiliza um número escolhido pelo usuário para sortear números que vari
 
 * *escolha um número no input ao lado do ícone de dado.*
 * *clice no ícone de dado.*
+
+<video width="320" height="240" controls>
+  <source src="/main/Aleator/Aleator.webm" type="video/mp4">
+</video>
+
+
+
+https://github.com/user-attachments/assets/90df6496-b657-4af1-b04f-6d7ffb1672f6
+
